@@ -1,8 +1,27 @@
+html {
+  background: url('https://live.staticflickr.com/7235/6933913230_6d7bb4cebe_h.jpg');
+  color: #FFFFFF;
+}
+
 header {
+  background-color: #000000;
   font-family: 'Rubik', sans-serif;
+}
+
+h1 {
   font-size: 50px;
+}
+
+h2 {
+  font-size: 25px;
 }
 
 p:nth-child(-n+14) {
   font-style: italic;
+}
+
+p:nth-child(n+15) {
+  font-size: 20px;
+  background-color: #000000;
+  text-align: center;
 }
